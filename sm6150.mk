@@ -114,8 +114,8 @@ PRODUCT_PACKAGES += \
     XiaomiParts
 
 # Dexpreopt
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI
+#PRODUCT_DEXPREOPT_SPEED_APPS += \
+#    SystemUI
 
 # Display
 PRODUCT_PACKAGES += \
@@ -360,9 +360,6 @@ PRODUCT_PACKAGES += \
     qti-telephony-utils-prd \
     qti_telephony_utils.xml \
     qti_telephony_utils_prd.xml \
-    telephony-ext
-
-PRODUCT_BOOT_JARS += \
     telephony-ext
 
 PRODUCT_COPY_FILES += \
